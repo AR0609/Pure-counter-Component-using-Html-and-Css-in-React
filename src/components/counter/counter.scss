@@ -1,0 +1,154 @@
+.counter {
+	//     .big{
+	// width: 210px;
+	//     }
+	//     .small{
+	//         width: 202px;
+	//     }
+	.counter-outline {
+		padding: 8px 8px 8px 8px;
+		display: flex;
+		border-radius: 8px;
+		background: #eff1f5;
+		gap: 8px;
+		.minus {
+			width: 44px;
+			height: 40px;
+
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			border-radius: 4px;
+			cursor: pointer;
+		}
+		.content {
+			width: 114px;
+			height: 40px;
+			border-radius: 4px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			border-radius: 4px;
+			// background: #FFFFFF;
+			cursor: text;
+		}
+		.plus {
+			width: 44px;
+			height: 40px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			border-radius: 4px;
+			cursor: pointer;
+		}
+		.white {
+			background: #ffffff;
+		}
+		.grey {
+			background: #eff1f5;
+		}
+	}
+}
+.vertical {
+	.big {
+		height: 136px;
+	}
+	.small {
+		height: 122px;
+	}
+	.counter-outline {
+		padding: 8px 8px 8px 8px;
+		// width: 52px;
+		background: #eff1f5;
+		border-radius: 8px;
+		.minus {
+			width: 100%;
+			height: 32px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			border-radius: 4px;
+			cursor: pointer;
+		}
+
+		.content {
+			width: 100%;
+
+			border-radius: 4px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			border-radius: 4px;
+			background: #ffffff;
+			cursor: text;
+		}
+		.smallheight {
+			height: 34px;
+			margin-top: 8px;
+			margin-bottom: 8px;
+		}
+		.bigheight {
+			height: 40px;
+			margin-top: 8px;
+			margin-bottom: 8px;
+		}
+		.plus {
+			width: 100%;
+			height: 32px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			border-radius: 4px;
+			cursor: pointer;
+		}
+		.white {
+			background: #ffffff;
+		}
+		.grey {
+			background: #eff1f5;
+		}
+	}
+}
+.twobutton-counter {
+	height: 48px;
+	width: 146px;
+	border-radius: 8px;
+	background-color: red;
+	display: flex;
+    border: 1px solid #eff1f5;
+	.twobutton-content {
+		width: 98px;
+		height: 48px;
+		background: #ffffff;
+        display: flex;
+		justify-content: center;
+		align-items: center;
+        border: 1px solid #eff1f5;
+	}
+	.small-plus {
+		width: 48px;
+		height: 24px;
+		background: #eff1f5;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+        cursor: pointer;
+		.small-image {
+			height: 9px;
+			width: 9px;
+		}
+	}
+	.small-minus {
+		width: 48px;
+		height: 24px;
+		background: #F9FAFB;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+        cursor: pointer;
+		.small-image {
+			height: 9px;
+			width: 9px;
+		}
+	}
+}
